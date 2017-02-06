@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "cody assignment 3",
+  "main": "./src/server.js",
+  "scripts": {
+     "start": "node ./src/server.js",
+     "pretest": "eslint ./src --fix",
+     "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cxk7197/streaming-media-assignment.git"
+  },
+  "author": "Carly Kraft",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/cxk7197/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/cxk7197/streaming-media-assignment#readme",
+  "dependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
